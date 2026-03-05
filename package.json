@@ -1,0 +1,17 @@
+{
+  "name": "cfnew",
+  "version": "2.2.0",
+  "private": true,
+  "description": "CFnew - Cloudflare Worker Proxy Subscription Manager",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "node obfuscate.js",
+    "lint": "eslint '明文源吗' snippets -c eslint.config.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4",
+    "javascript-obfuscator": "^4",
+    "eslint": "^9"
+  }
+}
