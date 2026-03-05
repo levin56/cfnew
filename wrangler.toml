@@ -1,0 +1,7 @@
+name = "cfnew"
+main = "./src/index.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+u = "351c9981-04b6-4103-aa4b-864aa9c91469"
